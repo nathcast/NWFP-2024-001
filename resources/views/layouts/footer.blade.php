@@ -36,12 +36,12 @@
             <h2 class="text-2xl font-mono font-semibold">Other NBRIs</h2>
             <div>
                 <a href="https://www.era.rothamsted.ac.uk">
-                    <img src="/logos/RLTE2024.png" class=" h-16 py-2 w-auto object-scale-down" />
+                    <img src="/logos/2024-RLTE-LOGO.png" class=" h-16 py-2 w-auto object-scale-down" />
                 </a>
             </div>
             <div>
                 <a href="https://insectsurvey.com">
-                    <img src="/logos/RIS2024.png" class="block h-16 py-2  w-auto object-scale-down" />
+                    <img src="/logos/2024-RIS-LOGO.png" class="block h-16 py-2  w-auto object-scale-down" />
                 </a>
             </div>
         </div>
