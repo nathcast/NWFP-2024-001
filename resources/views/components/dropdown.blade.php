@@ -22,6 +22,9 @@ switch ($width) {
     case '48':
         $width = 'w-48';
         break;
+    case '70':
+        $width = 'w-72';
+        break;
 }
 @endphp
 
@@ -40,7 +43,7 @@ switch ($width) {
             class="absolute z-50 mt-2 {{ $width }} rounded-md shadow-lg {{ $alignmentClasses }} {{ $dropdownClasses }}"
             style="display: none;"
             @click="open = false">
-        <div class="rounded-md ring-1 ring-black ring-opacity-5 {{ $contentClasses }}">
+        <div class="  border-2 border-nw-blue-700 ring-1 ring-nw-blue-900 ring-opacity-5 {{ $contentClasses }}">
             {{ $content }}
         </div>
     </div>

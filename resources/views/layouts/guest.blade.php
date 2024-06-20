@@ -17,10 +17,40 @@
         <!-- Styles -->
         @livewireStyles
     </head>
-    <body>
-        <div class="font-sans text-gray-900 antialiased">
-            {{ $slot }}
+    <body class="font-sans antialiased">
+        <x-banner />
+
+        <div class="min-h-screen">
+            @include('layouts.navigation-menu')
+
+            <!-- Page Heading -->
+            @if (isset($header))
+                <header class="bg-white shadow">
+                    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+                        {{ $header }}
+                    </div>
+                </header>
+            @endif
+
+            <!-- Page Content -->
+            <main>
+                <div class="py-12  bg-bg02muted bg-no-repeat bg-center bg-cover backdrop-opacity-10  ">
+                    <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+                        <div class="overflow-hidden bg-white shadow-xl sm:rounded-lg">
+                            {{ $slot }}
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+
+            <!-- Page Footer-->
+            <footer>
+                 @include('layouts.footer')
+            </footer>
         </div>
+
+        @stack('modals')
 
         @livewireScripts
     </body>
