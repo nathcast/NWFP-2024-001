@@ -1,5 +1,6 @@
 <?php
 
+use JoelButcher\Socialstream\Features;
 use JoelButcher\Socialstream\Providers;
 
 return [
@@ -10,4 +11,7 @@ return [
 
     ],
     'component' => 'socialstream::components.socialstream',
+    'features' => [
+        Features::generateMissingEmails(),
+    ]
 ];
