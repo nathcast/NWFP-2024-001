@@ -6,7 +6,7 @@
 
 ## Install
 To install this, 
- - save .env.example as .env and update what is needed including a App Name 
+- save .env.example as .env and update what is needed including a App Name 
  
 ```
 composer install
@@ -15,6 +15,9 @@ php artisan migrate
 npm ci
 ```
 Create an app for testing in GIThub and enter the relevant information
+
+Then copy the correct files in the storage folder 
+NWFP Website Project/General/website storage files into storage/public 
 
 
 ## Built with Laravel
