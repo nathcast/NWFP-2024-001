@@ -10,6 +10,8 @@
         <div class="p-3">
         </div>
         <h2 class="mt-4 h-8 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">Heading 2</h2>
+
+
         <div class="p-3">
 
             <h3 class="mt-4 text-lg font-medium text-nw-blue-700 underline underline-offset-4">Heading 3</h3>
