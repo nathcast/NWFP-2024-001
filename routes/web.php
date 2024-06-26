@@ -15,6 +15,9 @@ Route::get('/contacts', function () {
 Route::get('/content', function () {
     return view('content.index');
 })->name('content');
+Route::get('/information', function () {
+    return view('content.information');
+})->name('information');
 
 Route::get('/visits', function () {
     return view('content.site_visits');

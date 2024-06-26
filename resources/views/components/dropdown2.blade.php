@@ -24,16 +24,12 @@
             break;
     }
 
-    $classes = 'inline-flex items-center px-1 pt-1 border-1 border-transparent text-sm font-medium   leading-5 text-nw-blue-600 hover:bg-nw-blue-900 hover:text-nw-blue-50  transition duration-150 ease-in-out';
+    $classes = 'inline-flex items-center px-1 pt-1 border-1 border-transparent text-lg font-medium   leading-5 text-nw-blue-600 hover:bg-nw-blue-900 hover:text-nw-blue-50  transition duration-150 ease-in-out';
 @endphp
 
-<div class="relative inline-flex items-center px-1 pt-1 border-1 border-transparent text-sm font-medium   leading-5 text-nw-blue-600 hover:bg-nw-blue-900 hover:text-nw-blue-50  transition duration-150 ease-in-out " x-data="{ open: false }" @click.away="open = false" @close.stop="open = false">
+<div class="relative inline-flex items-center px-1 pt-1 border-1 border-transparent text-lg font-medium   leading-5 text-nw-blue-600 hover:bg-nw-blue-900 hover:text-nw-blue-50  transition duration-150 ease-in-out " x-data="{ open: false }" @click.away="open = false" @close.stop="open = false">
     <div @click="open = ! open">
-
-
             {{ $trigger }}
-
-
     </div>
 
     <div class="{{ $width }} {{ $alignmentClasses }} {{ $dropdownClasses }} absolute -bottom-14 right-0 h-16 z-50 mt-2 rounded-md shadow-lg"

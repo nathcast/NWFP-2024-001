@@ -7,11 +7,11 @@
     display: none;
 }
 
-@layer base {
-    h2 {
+
+
+h2.basics {
         color: nw-blue-50;
         background-color: nw-blue-700;
         font-size:1.5 em;
 
-    }
 }

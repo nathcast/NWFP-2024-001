@@ -6,10 +6,6 @@
         </h2>
     </x-slot>
 
-    <h1 class="mt-0 h-12 content-center bg-nw-blue-50 px-4 text-2xl font-bold text-nw-blue-900">Heading 1</h1>
-    <h2 class="mt-4 h-8 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">Heading 2</h2>
-    <h3 class="mt-4 text-lg font-medium text-nw-blue-700 underline underline-offset-4">Heading 3</h3>
-    <h4 class="mt-4 font-semibold text-nw-blue-700">Heading 4 </h4>
     <div class="p-3">
         <p>In addition to the IoT network of water flow and water quality sensors installed throughout the
             Farm Platform, we are testing a variety of sensor and sensor communication technologies. Some
@@ -30,9 +26,9 @@
     <div class="p-3">
         <h3 class="mt-4 text-lg font-medium text-nw-blue-700 underline underline-offset-4">Air Quality</h3>
         <h4 class="mt-4 font-semibold text-nw-blue-700">Methane emissions</h4>
-        <div class="flex flex-row">
+        <div class="flex flex-row p-3">
             <div class="w-1/3 p-4">
-                <img class="shadow-lg" src="/images/SF6_cattle.png" alt="Cattle" />
+                <img class="" src="/images/SF6_cattle.png" alt="Cattle" />
             </div>
             <div class="w-2/3">
                 <p>Enteric methane (CH4) emissions from freely-grazing animals are measured using a harmless
@@ -182,7 +178,7 @@
             </div>
             <div class="w-1/3">
                 <p>
-                    <img class="shadow-lg" src="/images/lowcostEC_sensor.png" alt="" />
+                    <img class="" src="/images/lowcostEC_sensor.png" alt="Low Cost EC-Sensor" />
                 </p>
             </div>
         </div>
