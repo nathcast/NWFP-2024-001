@@ -8,8 +8,10 @@
 
     <p class="m-5 rounded border border-red-700 bg-orange-400 p-3 text-lg font-semibold text-white"> A working document -
         the link to the old page and to the new pages. progress</p>
-
-        <h2 class="mt-4 h-8 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">In Progress</h2>
+    <h2 class="mt-4 h-8 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">Done</h2>
+    <ul>
+    </ul>
+    <h2 class="mt-4 h-8 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">In Progress</h2>
     <ul>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
                 class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
@@ -23,24 +25,19 @@
             http://resources.rothamsted.ac.uk/farm-platform-national-capability/agri-modelling-0
         </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-            class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
-            href="{{ route('map') }}">Farm Platform Map</a>
-        http://resources.rothamsted.ac.uk/farm-platform-national-capability/farm-platform-map
-    </li>
-    </ul>
-
-    <h2 class="mt-4 h-8 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">Static Pages - To Do</h2>
-
-    <ul class="list-disc">
-        <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
                 class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
-                href="{{ route('home') }}"> Landing page - will be done later</a>:
-            was : http://resources.rothamsted.ac.uk/farmplatform
+                href="{{ route('map') }}">Farm Platform Map</a>
+            http://resources.rothamsted.ac.uk/farm-platform-national-capability/farm-platform-map
         </li>
-
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
                 class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
-                href="{{ route('contacts') }}">Contacts</a>
+                href="{{ route('data_collection') }}">Datasets Available on the Data Portal and Record Counts</a>
+            http://resources.rothamsted.ac.uk/farm-platform-national-capability/data-collections
+        </li>
+        <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
+                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
+                href="{{ Route('information') }}">Information on trouble shooting</a>
+            http://resources.rothamsted.ac.uk/farm-platform-national-capability/data-portal-guides-and-information
         </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600">
             <a class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
@@ -49,10 +46,17 @@
             http://resources.rothamsted.ac.uk/farm-platform-national-capability/about-farm-platform
 
         </li>
+    </ul>
+
+    <h2 class="mt-4 h-8 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">Static Pages - To Do
+    </h2>
+
+    <ul class="list-disc">
+
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
                 class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
-                href="{{ Route('information') }}">Information on trouble shooting</a>
-            http://resources.rothamsted.ac.uk/farm-platform-national-capability/data-portal-guides-and-information
+                href="{{ route('key_findings') }}">Key Research Findings</a> -
+            http://resources.rothamsted.ac.uk/north-wyke-farm-platform/key-research-findings
         </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
                 class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
@@ -89,32 +93,36 @@
                 Publications</a> -
             http://resources.rothamsted.ac.uk/north-wyke-farm-platform/publications
         </li>
+        <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
+                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
+                href="{{ Route('information') }}">Information on trouble shooting</a>
+            http://resources.rothamsted.ac.uk/farm-platform-national-capability/data-portal-guides-and-information
+        </li>
+        <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
+            href="{{ Route('experiments') }}">Experiments</a>
+        http://resources.rothamsted.ac.uk/north-wyke-farm-platform/experiments Maybe
+        don't include this one as this was set up as an interim to show how the NWFP was being used
+        until the data were being published in Journals eetc.
+    </li>
     </ul>
 
     <h2 class="mt-4 h-8 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">Needs Sorting</h2>
     <ul>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
                 class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
-                href="{{ route('key_findings') }}">Key Research Findings</a> -
-            http://resources.rothamsted.ac.uk/north-wyke-farm-platform/key-research-findings
+                href="{{ route('home') }}"> Landing page - will be done later</a>:
+            was : http://resources.rothamsted.ac.uk/farmplatform
         </li>
+
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-                href="{{ Route('experiments') }}">Experiments</a>
-            http://resources.rothamsted.ac.uk/north-wyke-farm-platform/experiments Maybe
-            don't include this one as this was set up as an interim to show how the NWFP was being used
-            until the data were being published in Journals eetc.
+                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
+                href="{{ route('contacts') }}">Contacts</a>
         </li>
+
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
                 class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
                 href="{{ route('timeline') }}">Timeline of Events</a>
             http://resources.rothamsted.ac.uk/farm-platform-national-capability/timeline-events
-        </li>
-
-
-        <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
-                href="{{ route('data_collection') }}">Datasets Available on the Data Portal and Record Counts</a>
-            http://resources.rothamsted.ac.uk/farm-platform-national-capability/data-collections
         </li>
 
     </ul>
@@ -126,23 +134,23 @@
     <h4 class="mt-4 p-3 font-semibold text-nw-blue-700">Heading 4 </h4>
 
     <span
-        class="me-2 rounded-full border border-2 border-nw-blue-50 bg-nw-blue-500 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
+        class="me-2 rounded-full border-2 border-nw-blue-50 bg-nw-blue-500 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
         Pill 500
     </span>
     <span
-        class="me-2 rounded-full border border-2 border-nw-blue-50 bg-nw-blue-600 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
+        class="me-2 rounded-full border-2 border-nw-blue-50 bg-nw-blue-600 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
         Pill 600
     </span>
     <span
-        class="me-2 rounded-full border border-2 border-nw-blue-50 bg-nw-blue-700 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
+        class="me-2 rounded-full border-2 border-nw-blue-50 bg-nw-blue-700 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
         Pill 700
     </span>
     <span
-        class="me-2 rounded-full border border-2 border-nw-blue-50 bg-nw-blue-800 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
+        class="me-2 rounded-full border-2 border-nw-blue-50 bg-nw-blue-800 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
         Pill 800
     </span>
     <span
-        class="me-2 rounded-full border border-2 border-nw-blue-50 bg-nw-blue-900 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
+        class="me-2 rounded-full border-2 border-nw-blue-50 bg-nw-blue-900 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
         Pill 900
     </span>
 
@@ -164,7 +172,7 @@
 
     <h2 class="mt-4 h-12 content-center bg-nw-blue-500 px-4 text-lg font-medium text-nw-blue-50">
         <span
-            class="me-2 rounded-full border border-2 border-nw-blue-50 bg-nw-blue-500 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
+            class="me-2 rounded-full border-2 border-nw-blue-50 bg-nw-blue-500 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
             Data Use
         </span> heading 2 with a pill of color 500
     </h2>

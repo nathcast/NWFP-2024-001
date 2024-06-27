@@ -185,30 +185,7 @@
         </b></p>
     <p></p>
 
-    <h2>Known Issues and Workarounds</h2>
-    <p>We are aware that there are certain issues with the Data Portal. However, there are ways to get around these.
-        Below is a list of the current known issues and the temporary solutions.</p>
-    <h5>1. MET-DATA Data Download</h5>
-    <p>Issue: The data-download doesn’t contain the selected MET data.</p>
-    <p>Solution: Select catchment 4 in the map. As the MET station is located in the ‘old’ catchment 4.</p>
-    <h5>2. Live Trends Graphs</h5>
-    <p>Issue: The text on the axes of the Live Trends graphs is too small to read</p>
-    <p>Solution: Zoom in on graph using the browser zoom controls (Ctrl +)</p>
-    <h5><strong>3. Graph on Download page is refreshing all the time</strong></h5>
-    <p>Issue: When selecting variables, the graph is constantly updating, and the user has to wait until the loading has
-        finished until another variable can be selected.</p>
-    <p>Solution: Change the date-interval to fall outside the available data period (above the variable selection boxes
-        is stated when the data is available), then tick all the variables required. After all selection boxes are
-        ticked, change the date to the desired date-interval. This way all the data will be loaded only once.</p>
-    <h5>4. Issues with iPhone or Android phone</h5>
-    <p>Issue: Some of the icon buttons on the NWFP front page aren’t appearing, making it impossible to enter the Data
-        Portal.</p>
-    <p>Solution: No solution at present.</p>
-    <h5>5. Closing the help page in the Data Portal in Chrome</h5>
-    <p>Issue: The close button isn’t always visible on a laptop screen.</p>
-    <p>Solution: Use the mouse wheel to scroll down the page, or CTRL Page Down.</p>
 
-    <p></p>
 
     <h2>Data Portal Updates</h2>
     <p><iframe src="https://nwfp.rothamsted.ac.uk/fpdownload/DB_Updates/Data_changes4Users.htm" frameborder="0"

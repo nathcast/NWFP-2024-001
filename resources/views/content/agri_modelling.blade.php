@@ -9,23 +9,23 @@
     <div class="p-3">
 
         <span
-            class="me-2 rounded-full border border-2 border-nw-blue-50 bg-nw-blue-500 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
+            class="me-2 rounded-full border-2 border-nw-blue-50 bg-nw-blue-500 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
             Data Use
         </span>
         <span
-            class="me-2 rounded-full border border-2 border-nw-blue-50 bg-nw-blue-600 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
+            class="me-2 rounded-full border-2 border-nw-blue-50 bg-nw-blue-600 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
             Input Data
         </span>
         <span
-            class="me-2 rounded-full border border-2 border-nw-blue-50 bg-nw-blue-700 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
+            class="me-2 rounded-full border-2 border-nw-blue-50 bg-nw-blue-700 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
             Calibration data
         </span>
         <span
-            class="me-2 rounded-full border border-2 border-nw-blue-50 bg-nw-blue-800 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
+            class="me-2 rounded-full border-2 border-nw-blue-50 bg-nw-blue-800 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
             Further Data
         </span>
         <span
-            class="me-2 rounded-full border border-2 border-nw-blue-50 bg-nw-blue-900 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
+            class="me-2 rounded-full border-2 border-nw-blue-50 bg-nw-blue-900 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
             Modelled Data
         </span>
 
@@ -44,7 +44,7 @@
                 internationally for models to use the Farm Platform in their simulations.</p>
 
         </div>
-        <div class="border-3 m-3 border border-dotted border-nw-blue-700 p-3">
+        <div class="border-3 m-3 border-dotted border-nw-blue-700 p-3">
 
             <p>Rothamsted North Wyke has a long history of modelling experimental data, for example the <a
                     class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
@@ -82,7 +82,7 @@
     </div>
     <h2 class="mt-4 h-12 content-center bg-nw-blue-500 px-4 text-lg font-medium text-nw-blue-50">
         <span
-            class="me-2 rounded-full border border-2 border-nw-blue-50 bg-nw-blue-500 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
+            class="me-2 rounded-full border-2 border-nw-blue-50 bg-nw-blue-500 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
             Data Use
         </span> How to use the Data Portal and Guides for modelling
     </h2>
@@ -182,7 +182,7 @@
     </div>
     <h2 class="mt-4 h-12 content-center bg-nw-blue-600 px-4 text-lg font-medium text-nw-blue-50">
         <span
-            class="me-2 rounded-full border border-2 border-nw-blue-50 bg-nw-blue-600 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
+            class="me-2 rounded-full border-2 border-nw-blue-50 bg-nw-blue-600 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
             Input Data
         </span> Datasets suitable for process model input
     </h2>
@@ -255,7 +255,7 @@
     </div>
     <h2 class="mt-4 h-12 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">
         <span
-            class="me-2 rounded-full border border-2 border-nw-blue-50 bg-nw-blue-700 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
+            class="me-2 rounded-full border-2 border-nw-blue-50 bg-nw-blue-700 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
             Calibration data
         </span> Datasets suitable for process model calibration and validation
     </h2>
@@ -301,7 +301,7 @@
 
     <h2 class="mt-4 h-12 content-center bg-nw-blue-800 px-4 text-lg font-medium text-nw-blue-50">
         <span
-            class="me-2 rounded-full border border-2 border-nw-blue-50 bg-nw-blue-800 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
+            class="me-2 rounded-full border-2 border-nw-blue-50 bg-nw-blue-800 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
             Further Data
         </span> Supplementary information, Links and further resources
     </h2>
@@ -309,25 +309,25 @@
         Extra data which may be useful in modelling is to be found on the <a class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
             href="{{ route('guides') }}">
             Guides, Information, Data Portal Updates and External Links</a>
-        webpage in the '<strong>Supplementary Data, Information and File Downloads'
-        </strong>section. This supplementary file store is very useful for models using a daily
+        webpage in the '<span class="font-bold">Supplementary Data, Information and File Downloads'
+        </span>section. This supplementary file store is very useful for models using a daily
         time-step since it contains statistical summaries of the 15-minute datasets, including daily
         weather data, flume measurements and soil moisture, temperature and field precipitation. The
         file store also contains GIS shape files for the farm platform fields.</p>
         <p>Links to further sources of data, including datasets from the same North Wyke site as well as
-            other sites, are given on the webpage in the '<strong>Useful Links to External Data
-                Repositories and Associated Organisations' </strong>section.</p>
+            other sites, are given on the webpage in the '<span class="font-bold">Useful Links to External Data
+                Repositories and Associated Organisations' </span>section.</p>
     </div>
     <h2 class="mt-4 h-12 content-center bg-nw-blue-900 px-4 text-lg font-medium text-nw-blue-50">
         <span
-            class="me-2 rounded-full border border-2 border-nw-blue-50 bg-nw-blue-900 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
+            class="me-2 rounded-full border-2 border-nw-blue-50 bg-nw-blue-900 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
             Modelled Data
         </span> Results of Process modelling carried out using the data of the Farm Platform
     </h2>
     <div class="p-3">
         <h3 class="mt-4 text-lg font-medium text-nw-blue-900 underline underline-offset-4">
             <span
-                class="me-2 rounded-full border border-2 border-nw-blue-50 bg-nw-blue-800 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
+                class="me-2 rounded-full border-2 border-nw-blue-50 bg-nw-blue-800 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
                 Modelled Data
             </span> SPACSYS
         </h3>
@@ -353,15 +353,15 @@
                 plant root architecture; what field managements to mitigate GHG emissions and diffuse
                 pollution; how response of plants/cropping systems to climate change and carbon sequestered
                 into soils with land use change.</p>
-            <p><em>Wu, L., McGechan, M. B., McRoberts, N., Baddeley, J. A., Watson, C. A., 2007. SPACSYS:
+            <p>Wu, L., McGechan, M. B., McRoberts, N., Baddeley, J. A., Watson, C. A., 2007. SPACSYS:
                     integration of a 3D root architecture component to carbon, nitrogen and water cycling -
-                    model description. Ecol. Model. 200, 343-359. (<a class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
+                    model description. <span class="italic">Ecol. Model</span>. 200, 343-359. (<a class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
                         href="https://www.sciencedirect.com/science/article/abs/pii/S0304380006003802?via%3Dihub"
-                        onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;">doi:10.1016/j.ecolmodel.2006.08.010</a>)</em>
+                        onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;">doi:10.1016/j.ecolmodel.2006.08.010</a>)
             </p>
         </div>
         <h3 class="mt-4 text-lg font-medium text-nw-blue-900 underline underline-offset-4"><span
-                class="me-2 rounded-full border border-2 border-nw-blue-50 bg-nw-blue-800 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
+                class="me-2 rounded-full border-2 border-nw-blue-50 bg-nw-blue-800 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
                 Modelled Data
             </span> DAYCENT </h3>
         <div class="ms-10 pt-5">
@@ -375,15 +375,15 @@
                 possible to manage operations on a daily basis. Model outputs include: daily N-gas flux
                 (N2O, NOx, N2), CO2 flux from heterotrophic soil respiration, soil organic C and N, NPP, H2O
                 and NO3 leaching, and other ecosystem parameters.</p>
-            <p><em>Parton, W.J. and Rasmussen, P.E. 1994. Long term effects of crop management in
-                    wheat/fallow: II. CENTURY model simulations. Soil Science Society of America Journal 58:
-                    530-536.</em></p>
-            <p><em>Parton, W.J., Hartman, M., Ojima, D., Schimel, D. 1998. DAYCENT and its land surface
-                    submodel: description and testing. Global Planetary Change, 19, 35-48.</em></p>
+            <p>Parton, W.J. and Rasmussen, P.E. (1994). Long term effects of crop management in
+                    wheat/fallow: II. CENTURY model simulations. <span class="italic">Soil Science Society of America Journal</span> 58:
+                    530-536.</p>
+            <p>Parton, W.J., Hartman, M., Ojima, D., Schimel, D. 1998. DAYCENT and its land surface
+                    submodel: description and testing. <span class="italic">Global Planetary Change</span>, 19, 35-48.</p>
         </div>
         <h3 class="mt-4 text-lg font-medium text-nw-blue-900 underline underline-offset-4">
             <span
-                class="me-2 rounded-full border border-2 border-nw-blue-50 bg-nw-blue-800 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
+                class="me-2 rounded-full border-2 border-nw-blue-50 bg-nw-blue-800 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
                 Modelled Data
             </span> SH20-NW
         </h3>
