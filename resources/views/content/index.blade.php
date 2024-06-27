@@ -35,10 +35,10 @@
             http://resources.rothamsted.ac.uk/farm-platform-national-capability/data-collections
         </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
-                href="{{ Route('information') }}">Information on trouble shooting</a>
-            http://resources.rothamsted.ac.uk/farm-platform-national-capability/data-portal-guides-and-information
-        </li>
+            class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
+            href="{{ Route('information') }}">Information on trouble shooting</a>
+        http://resources.rothamsted.ac.uk/farm-platform-national-capability/data-portal-guides-and-information
+    </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600">
             <a class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
                 href="{{ route('visits') }}">Site
@@ -46,6 +46,11 @@
             http://resources.rothamsted.ac.uk/farm-platform-national-capability/about-farm-platform
 
         </li>
+        <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
+            class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
+            href="{{ route('key_findings') }}">Key Research Findings</a> -
+        http://resources.rothamsted.ac.uk/north-wyke-farm-platform/key-research-findings
+    </li>
     </ul>
 
     <h2 class="mt-4 h-8 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">Static Pages - To Do
@@ -54,10 +59,9 @@
     <ul class="list-disc">
 
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
-                href="{{ route('key_findings') }}">Key Research Findings</a> -
-            http://resources.rothamsted.ac.uk/north-wyke-farm-platform/key-research-findings
-        </li>
+            class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
+            href="{{ route('contacts') }}">Contacts</a>
+    </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
                 class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
                 href="{{ route('overview') }}">Overview & Hypotheses</a> -
@@ -93,16 +97,12 @@
                 Publications</a> -
             http://resources.rothamsted.ac.uk/north-wyke-farm-platform/publications
         </li>
-        <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
-                href="{{ Route('information') }}">Information on trouble shooting</a>
-            http://resources.rothamsted.ac.uk/farm-platform-national-capability/data-portal-guides-and-information
-        </li>
+
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
             href="{{ Route('experiments') }}">Experiments</a>
         http://resources.rothamsted.ac.uk/north-wyke-farm-platform/experiments Maybe
         don't include this one as this was set up as an interim to show how the NWFP was being used
-        until the data were being published in Journals eetc.
+        until the data were being published in Journals eetc. NOT TO WORRRY
     </li>
     </ul>
 
@@ -114,10 +114,7 @@
             was : http://resources.rothamsted.ac.uk/farmplatform
         </li>
 
-        <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
-                href="{{ route('contacts') }}">Contacts</a>
-        </li>
+
 
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
                 class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
