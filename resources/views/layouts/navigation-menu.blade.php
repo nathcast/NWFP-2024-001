@@ -7,7 +7,7 @@
             <!-- Logo - click on LOGO - GO Home-->
             <div class="flex shrink-0 items-center">
                 <a href="{{ route('home') }}">
-                    <x-application-logo class="block h-16" />
+                    <x-application-logo class="block h-12" />
                 </a>
             </div>
             <!-- Navigation Links in the middle-->

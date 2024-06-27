@@ -43,6 +43,7 @@
                             {{ $slot }}
                         </div>
                     </div>
+
                 </div>
             </main>
 

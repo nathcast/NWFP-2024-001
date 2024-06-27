@@ -25,6 +25,13 @@ export default {
 
 
         },
+        listStyleType: {
+            none: 'none',
+            disc: 'disc',
+            decimal: 'decimal',
+            square: 'square',
+            roman: 'upper-roman',
+          },
         colors: {
             transparent: 'transparent',
             current: 'currentColor',

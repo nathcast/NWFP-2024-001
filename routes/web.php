@@ -15,6 +15,9 @@ Route::get('/contacts', function () {
 Route::get('/content', function () {
     return view('content.index');
 })->name('content');
+Route::get('/information', function () {
+    return view('content.information');
+})->name('information');
 
 Route::get('/visits', function () {
     return view('content.site_visits');
@@ -53,9 +56,6 @@ Route::get('/facilities', function () {
     return view('content.facilities');
 })->name('facilities');
 
-Route::get('/lamb_cheque', function () {
-    return view('content.lamb_cheque');
-})->name('lamb_cheque');
 Route::get('/live_trends', function () {
     return view('content.live_trends');
 })->name('live_trends');
@@ -64,9 +64,6 @@ Route::get('/guides', function () {
     return view('content.guides');
 })->name('guides');
 
-Route::get('/experiments', function () {
-    return view('content.experiments');
-})->name('experiments');
 
 
 Route::get('/publications', function () {
