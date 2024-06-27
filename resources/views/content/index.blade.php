@@ -16,39 +16,39 @@
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
                 class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
                 href="{{ route('technologies') }}">North Wyke and the Farm
-                Platform as a Test-Bed For Advances in Sensor Technologies</a>
+                Platform as a Test-Bed For Advances in Sensor Technologies - Issue#20</a>
             http://resources.rothamsted.ac.uk/north-wyke-farm-platform/north-wyke-and-farm-platform-test-bed-advances-sensor-technologies
         </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
                 class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
-                href="{{ route('agri_modelling') }}">Agri-Modelling</a> -
+                href="{{ route('agri_modelling') }}">Agri-Modelling - Issue#21</a> -
             http://resources.rothamsted.ac.uk/farm-platform-national-capability/agri-modelling-0
         </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
                 class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
-                href="{{ route('map') }}">Farm Platform Map</a>
+                href="{{ route('map') }}">Farm Platform Map  - Issue#17</a>
             http://resources.rothamsted.ac.uk/farm-platform-national-capability/farm-platform-map
         </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
                 class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
-                href="{{ route('data_collection') }}">Datasets Available on the Data Portal and Record Counts</a>
+                href="{{ route('data_collection') }}">Datasets Available on the Data Portal and Record Counts  - Issue#18</a>
             http://resources.rothamsted.ac.uk/farm-platform-national-capability/data-collections
         </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
             class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
-            href="{{ Route('information') }}">Information on trouble shooting</a>
+            href="{{ Route('information') }}">Information on trouble shooting  - Issue#22</a>
         http://resources.rothamsted.ac.uk/farm-platform-national-capability/data-portal-guides-and-information
     </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600">
             <a class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
                 href="{{ route('visits') }}">Site
-                Visits</a> :
+                Visits  - Issue#23</a> :
             http://resources.rothamsted.ac.uk/farm-platform-national-capability/about-farm-platform
 
         </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
             class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
-            href="{{ route('key_findings') }}">Key Research Findings</a> -
+            href="{{ route('key_findings') }}">Key Research Findings - Issue#19</a> -
         http://resources.rothamsted.ac.uk/north-wyke-farm-platform/key-research-findings
     </li>
     </ul>
@@ -77,11 +77,7 @@
                 href="{{ route('facilities') }}">Using Our Facilities and Opportunities for Co-Development</a>
             http://resources.rothamsted.ac.uk/farm-platform-national-capability/using-our-facilities
         </li>
-        <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
-                href="{{ Route('lamb_cheque') }}">News (example)</a>
-            http://resources.rothamsted.ac.uk/north-wyke-farm-platform/trial-finds-ewe-data-route-bigger-lamb-cheque
-        </li>
+
     </ul>
     <h2 class="mt-4 h-8 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">Pages depending on
         Databases</h2>
@@ -98,12 +94,6 @@
             http://resources.rothamsted.ac.uk/north-wyke-farm-platform/publications
         </li>
 
-        <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-            href="{{ Route('experiments') }}">Experiments</a>
-        http://resources.rothamsted.ac.uk/north-wyke-farm-platform/experiments Maybe
-        don't include this one as this was set up as an interim to show how the NWFP was being used
-        until the data were being published in Journals eetc. NOT TO WORRRY
-    </li>
     </ul>
 
     <h2 class="mt-4 h-8 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">Needs Sorting</h2>

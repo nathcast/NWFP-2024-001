@@ -66,12 +66,7 @@
                                     href="{{ route('key_findings') }}">Key Research Findings</a> -
                                 <a href="http://resources.rothamsted.ac.uk/north-wyke-farm-platform/key-research-findings">Old Site</a>
                             </div>
-                            <div class="m-5 rounded-lg border border-nw-blue-700 p-3 border-3 shadow-lg"> <a
-                                    href="{{ Route('experiments') }}">Experiments</a>
-                                <a href="http://resources.rothamsted.ac.uk/north-wyke-farm-platform/experiments">Old Site</a> Maybe
-                                don't include this one as this was set up as an interim to show how the NWFP was being used
-                                until the data were being published in Journals eetc.
-                            </div>
+
                             <div class="m-5 rounded-lg border border-nw-blue-700 p-3 border-3 shadow-lg"> <a
                                     class=" text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
                                     href="{{ route('timeline') }}">Timeline of Events</a>
@@ -93,11 +88,7 @@
                                     href="{{ route('facilities') }}">Using Our Facilities and Opportunities for Co-Development</a>
                                 <a href="http://resources.rothamsted.ac.uk/farm-platform-national-capability/using-our-facilities">Old Site</a>
                             </div>
-                            <div class="m-5 rounded-lg border border-nw-blue-700 p-3 border-3 shadow-lg"> <a
-                                    class=" text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
-                                    href="{{ Route('lamb_cheque') }}">News (example)</a>
-                                <a href="http://resources.rothamsted.ac.uk/north-wyke-farm-platform/trial-finds-ewe-data-route-bigger-lamb-cheque">Old Site</a>
-                            </div>
+
                         </div>
                     </div>
                 </div>
