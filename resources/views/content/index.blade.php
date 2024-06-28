@@ -157,6 +157,34 @@
     </ul>
     </div>
 
+                <!-- ------------------------ One People Card -------------------   -->
+                <div class="flex items-center gap-4 p-3"><img class="h-10 w-10 rounded-full"
+                    src="/profile-photos/martin-blackwell.jpg">
+                <div class="font-medium dark:text-white">
+                    <div>
+                        <a href="https://www.rothamsted.ac.uk/people/martin-blackwell">
+                            Martin-Blackwell
+                        </a>
+                    </div>
+                    <div class="text-sm text-gray-500 dark:text-gray-400">
+                        Joined in August 2014
+                    </div>
+                </div>
+            </div>
+            <!-- ------------------------ One People Card With Initials -------------------   -->
+            <div class="flex items-center gap-4 p-3">
+                <div
+                    class="relative inline-flex h-10 w-10 items-center justify-center overflow-hidden rounded-full bg-gray-100 dark:bg-gray-600">
+                    <span class="font-medium text-gray-600 dark:text-gray-300">AN</span>
+                </div>
+                <div class="font-medium dark:text-white">
+                    Andy Neal
+                </div>
+                <div class="text-sm text-gray-500 dark:text-gray-400">
+                    Joined in August 2014
+                </div>
+            </div>
+
     <h2 class="mt-4 h-12 content-center bg-nw-blue-500 px-4 text-lg font-medium text-nw-blue-50">
         <span
             class="me-2 rounded-full border-2 border-nw-blue-50 bg-nw-blue-500 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">

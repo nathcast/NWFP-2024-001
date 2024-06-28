@@ -39,11 +39,12 @@
                         <x-dropdown-link href="{{ route('guides') }}">
                             {{ __('Guides') }}
                         </x-dropdown-link>
+                        <x-dropdown-link href="{{ route('contacts') }}">
+                            {{ __('The Team') }}
+                        </x-dropdown-link>
                     </x-slot>
                 </x-dropdown2>
-                <x-nav-link href="{{ route('contacts') }}" :active="request()->routeIs('contacts')">
-                    {{ __('Contact us') }}
-                </x-nav-link>
+
 
                 @if (Route::has('login'))
                     <!-- Extra Linnks when logged in -->
