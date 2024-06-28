@@ -51,6 +51,10 @@
             href="{{ route('key_findings') }}">Key Research Findings - Issue#19</a> -
         http://resources.rothamsted.ac.uk/north-wyke-farm-platform/key-research-findings
     </li>
+    <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
+        class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
+        href="{{ route('contacts') }}">Contacts - issue#24</a>
+</li>
     </ul>
 
     <h2 class="mt-4 h-8 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">Static Pages - To Do
@@ -58,10 +62,7 @@
 
     <ul class="list-disc">
 
-        <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-            class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
-            href="{{ route('contacts') }}">Contacts</a>
-    </li>
+
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
                 class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
                 href="{{ route('overview') }}">Overview & Hypotheses</a> -
