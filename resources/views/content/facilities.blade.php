@@ -75,12 +75,13 @@
     </div>
 
     <div class="p-3">
-        <p  class="p-3">We have dedicated laboratories to
+        <p class="p-3">We have dedicated laboratories to
             handle soil, herbage, air and water samples and have a wide range of analytical techniques available in
             our
             Analytical Laboratories.</p>
         <p><img class="mx-auto p-4" src="/images/facilities03.png" /></p>
-        <p class="p-3">In addition, we have the Small Ruminant Facility (SRF; Robert Orr building) which is used to not only house
+        <p class="p-3">In addition, we have the Small Ruminant Facility (SRF; Robert Orr building) which is used to
+            not only house
             the
             Farm Platform sheep during the winter period but which also contains 24 automated biocontrol units. These
             units
@@ -199,12 +200,12 @@
                 <p class="font-semibold">3. Add the following paragraphs to your acknowledgments section:</p>
             </x-li-dot>
             <div class="border-2 border-nw-blue-700 bg-nw-blue-50 p-5">
-            <p>The North Wyke Farm Platform is a UK National Capability supported by the Biotechnology and
-                Biological Sciences
-                Research Council (BBS/E/C/000J0100).</p>
-            <p>We acknowledge the interests of the Ecological Continuity Trust (ECT), whose national network of LTEs
-                includes
-                the experiment on which this research was conducted</p>
+                <p>The North Wyke Farm Platform is a UK National Capability supported by the Biotechnology and
+                    Biological Sciences
+                    Research Council (BBS/E/C/000J0100).</p>
+                <p>We acknowledge the interests of the Ecological Continuity Trust (ECT), whose national network of LTEs
+                    includes
+                    the experiment on which this research was conducted</p>
             </div>
         </ul>
     </div>
