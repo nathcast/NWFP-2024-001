@@ -46,6 +46,9 @@ Route::get('/timeline', function () {
 Route::get('/map', function () {
     return view('content.map');
 })->name('map');
+Route::get('/metdata', function () {
+    return view('content.metdata-live');
+})->name('metdata');
 
 Route::get('/data_collection', function () {
     return view('content.data_collection');

@@ -26,35 +26,52 @@
         </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
                 class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
-                href="{{ route('map') }}">Farm Platform Map  - Issue#17</a>
+                href="{{ route('map') }}">Farm Platform Map - Issue#17</a>
             http://resources.rothamsted.ac.uk/farm-platform-national-capability/farm-platform-map
         </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
                 class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
-                href="{{ route('data_collection') }}">Datasets Available on the Data Portal and Record Counts  - Issue#18</a>
+                href="{{ route('data_collection') }}">Datasets Available on the Data Portal and Record Counts -
+                Issue#18</a>
             http://resources.rothamsted.ac.uk/farm-platform-national-capability/data-collections
         </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-            class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
-            href="{{ Route('information') }}">Information on trouble shooting  - Issue#22</a>
-        http://resources.rothamsted.ac.uk/farm-platform-national-capability/data-portal-guides-and-information
-    </li>
+                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
+                href="{{ Route('information') }}">Information on trouble shooting - Issue#22</a>
+            http://resources.rothamsted.ac.uk/farm-platform-national-capability/data-portal-guides-and-information
+        </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600">
             <a class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
                 href="{{ route('visits') }}">Site
-                Visits  - Issue#23</a> :
+                Visits - Issue#23</a> :
             http://resources.rothamsted.ac.uk/farm-platform-national-capability/about-farm-platform
 
         </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-            class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
-            href="{{ route('key_findings') }}">Key Research Findings - Issue#19</a> -
-        http://resources.rothamsted.ac.uk/north-wyke-farm-platform/key-research-findings
-    </li>
-    <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-        class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
-        href="{{ route('contacts') }}">Contacts - issue#24</a>
-</li>
+                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
+                href="{{ route('key_findings') }}">Key Research Findings - Issue#19</a> -
+            http://resources.rothamsted.ac.uk/north-wyke-farm-platform/key-research-findings
+        </li>
+        <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
+                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
+                href="{{ route('contacts') }}">Contacts - issue#24</a>
+        </li>
+
+        <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
+                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
+                href="{{ route('overview') }}">Overview & Hypotheses - 25</a> -
+            http://resources.rothamsted.ac.uk/north-wyke-farm-platform/overview-hypotheses
+        </li>
+        <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
+                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
+                href="{{ Route('live_trends') }}">Live Catchment Data Trends - issue #27</a>
+            http://resources.rothamsted.ac.uk/farm-platform-national-capability/farm-platform-live-trends-and-met-data
+        </li>
+        <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
+                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
+                href="{{ Route('metdata') }}">Meteorogical Data - Issue #26</a>
+            http://resources.rothamsted.ac.uk/farm-platform-national-capability/farm-platform-live-trends-and-met-data
+        </li>
     </ul>
 
     <h2 class="mt-4 h-8 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">Static Pages - To Do
@@ -62,17 +79,6 @@
 
     <ul class="list-disc">
 
-
-        <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
-                href="{{ route('overview') }}">Overview & Hypotheses</a> -
-            http://resources.rothamsted.ac.uk/north-wyke-farm-platform/overview-hypotheses
-        </li>
-        <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
-                href="{{ Route('live_trends') }}">Live Catchment Data Trends and Meteorogical Data</a>
-            http://resources.rothamsted.ac.uk/farm-platform-national-capability/farm-platform-live-trends-and-met-data
-        </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
                 class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
                 href="{{ route('facilities') }}">Using Our Facilities and Opportunities for Co-Development</a>
@@ -104,8 +110,6 @@
                 href="{{ route('home') }}"> Landing page - will be done later</a>:
             was : http://resources.rothamsted.ac.uk/farmplatform
         </li>
-
-
 
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
                 class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
@@ -156,35 +160,41 @@
         <x-li-arrow>List with an arrow x-li-arrow</x-li-arrow>
         <x-li-arrow>List with an arrow x-li-arrow</x-li-arrow>
     </ul>
-    </div>
 
-                <!-- ------------------------ One People Card -------------------   -->
-                <div class="flex items-center gap-4 p-3"><img class="h-10 w-10 rounded-full"
-                    src="/profile-photos/martin-blackwell.jpg">
-                <div class="font-medium dark:text-white">
-                    <div>
-                        <a href="https://www.rothamsted.ac.uk/people/martin-blackwell">
-                            Martin-Blackwell
-                        </a>
-                    </div>
-                    <div class="text-sm text-gray-500 dark:text-gray-400">
-                        Joined in August 2014
-                    </div>
-                </div>
-            </div>
-            <!-- ------------------------ One People Card With Initials -------------------   -->
-            <div class="flex items-center gap-4 p-3">
-                <div
-                    class="relative inline-flex h-10 w-10 items-center justify-center overflow-hidden rounded-full bg-gray-100 dark:bg-gray-600">
-                    <span class="font-medium text-gray-600 dark:text-gray-300">AN</span>
-                </div>
-                <div class="font-medium dark:text-white">
-                    Andy Neal
+    <h3 class="mt-4 p-3 text-lg font-medium text-nw-blue-700 underline underline-offset-4">Soils</h3>
+    <!-- ------------------------ One People Card -------------------   -->
+    <a
+        onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;"href="https://www.rothamsted.ac.uk/people/martin-blackwell">
+        <div class="flex items-center gap-4 p-3 hover:bg-nw-blue-50">
+            <img class="h-12 w-12 rounded-full p-1 hover:ring-2 hover:ring-nw-blue-700"
+                src="/profile-photos/martin-blackwell.jpg">
+            <div class="font-medium dark:text-white">
+                <div>
+                    Martin-Blackwell
                 </div>
                 <div class="text-sm text-gray-500 dark:text-gray-400">
-                    Joined in August 2014
+                    Soil Scientist
                 </div>
             </div>
+        </div>
+
+    </a>
+    <!-- ------------------------ One People Card With Initials -------------------   -->
+    <div class="flex items-center gap-4 p-3">
+        <div
+            class="relative inline-flex h-12 w-12 items-center justify-center overflow-hidden rounded-full bg-gray-100 dark:bg-gray-600">
+            <span class="font-medium text-gray-600 dark:text-gray-300">AN</span>
+        </div>
+        <div class="font-medium dark:text-white">
+            <div>
+                Andy Neal
+            </div>
+            <div class="text-sm text-gray-500 dark:text-gray-400">
+                Soil Scientist
+            </div>
+        </div>
+    </div>
+
 
     <h2 class="mt-4 h-12 content-center bg-nw-blue-500 px-4 text-lg font-medium text-nw-blue-50">
         <span

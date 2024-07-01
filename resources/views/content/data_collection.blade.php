@@ -5,7 +5,7 @@
         </h2>
     </x-slot>
 
-    <h2 class="mt-4 h-8 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">Datasets available </h2>
+    <h2 class="h-8 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">Datasets available </h2>
     <p><iframe src="https://nwfp.rothamsted.ac.uk/fpdownload/qc_reports/fp_data_catalogue/FPDataportalDatasets_PROD.html"
             frameborder="0" height="900" scrolling="true" width="100%"></iframe></p>
 
