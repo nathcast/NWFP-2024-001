@@ -14,64 +14,70 @@
     <h2 class="mt-4 h-8 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">In Progress</h2>
     <ul>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
+                 class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
                 href="{{ route('technologies') }}">North Wyke and the Farm
                 Platform as a Test-Bed For Advances in Sensor Technologies - Issue#20</a>
             http://resources.rothamsted.ac.uk/north-wyke-farm-platform/north-wyke-and-farm-platform-test-bed-advances-sensor-technologies
         </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
+                 class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
                 href="{{ route('agri_modelling') }}">Agri-Modelling - Issue#21</a> -
             http://resources.rothamsted.ac.uk/farm-platform-national-capability/agri-modelling-0
         </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
+                 class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
                 href="{{ route('map') }}">Farm Platform Map - Issue#17</a>
             http://resources.rothamsted.ac.uk/farm-platform-national-capability/farm-platform-map
         </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
+                 class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
                 href="{{ route('data_collection') }}">Datasets Available on the Data Portal and Record Counts -
                 Issue#18</a>
             http://resources.rothamsted.ac.uk/farm-platform-national-capability/data-collections
         </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
+                 class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
                 href="{{ Route('information') }}">Information on trouble shooting - Issue#22</a>
             http://resources.rothamsted.ac.uk/farm-platform-national-capability/data-portal-guides-and-information
         </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600">
-            <a class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
+            <a  class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
                 href="{{ route('visits') }}">Site
                 Visits - Issue#23</a> :
             http://resources.rothamsted.ac.uk/farm-platform-national-capability/about-farm-platform
 
         </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
+                 class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
                 href="{{ route('key_findings') }}">Key Research Findings - Issue#19</a> -
             http://resources.rothamsted.ac.uk/north-wyke-farm-platform/key-research-findings
         </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
+                 class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
                 href="{{ route('contacts') }}">Contacts - issue#24</a>
         </li>
 
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
+                 class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
                 href="{{ route('overview') }}">Overview & Hypotheses - 25</a> -
             http://resources.rothamsted.ac.uk/north-wyke-farm-platform/overview-hypotheses
         </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
+                 class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
                 href="{{ Route('live_trends') }}">Live Catchment Data Trends - issue #27</a>
             http://resources.rothamsted.ac.uk/farm-platform-national-capability/farm-platform-live-trends-and-met-data
         </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
+                 class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
                 href="{{ Route('metdata') }}">Meteorogical Data - Issue #26</a>
             http://resources.rothamsted.ac.uk/farm-platform-national-capability/farm-platform-live-trends-and-met-data
         </li>
+        <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
+             class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
+            href="{{ route('facilities') }}">Using Our Facilities and Opportunities for Co-Development</a>
+        http://resources.rothamsted.ac.uk/farm-platform-national-capability/using-our-facilities
+    </li>
+
     </ul>
 
     <h2 class="mt-4 h-8 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">Static Pages - To Do
@@ -79,23 +85,18 @@
 
     <ul class="list-disc">
 
-        <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
-                href="{{ route('facilities') }}">Using Our Facilities and Opportunities for Co-Development</a>
-            http://resources.rothamsted.ac.uk/farm-platform-national-capability/using-our-facilities
-        </li>
 
     </ul>
     <h2 class="mt-4 h-8 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">Pages depending on
         Databases</h2>
     <ul>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
+                 class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
                 href="{{ Route('guides') }}">User Guides, Information, Data Portal Updates and External Links</a>
             http://resources.rothamsted.ac.uk/farm-platform-national-capability/data-portal-guides-and-information
         </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
+                 class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
                 href="{{ route('publications') }}">
                 Publications</a> -
             http://resources.rothamsted.ac.uk/north-wyke-farm-platform/publications
@@ -106,13 +107,13 @@
     <h2 class="mt-4 h-8 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">Needs Sorting</h2>
     <ul>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
+                 class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
                 href="{{ route('home') }}"> Landing page - will be done later</a>:
             was : http://resources.rothamsted.ac.uk/farmplatform
         </li>
 
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
-                class="text-blue-800 hover:text-yellow-400 hover:underline active:text-yellow-700"
+                 class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
                 href="{{ route('timeline') }}">Timeline of Events</a>
             http://resources.rothamsted.ac.uk/farm-platform-national-capability/timeline-events
         </li>
