@@ -1,9 +1,12 @@
 <x-guest-layout>
 
     <x-slot name="header">
-        <h2 class="text-xl font-semibold leading-tight text-gray-800">
-            {{ __('North Wyke and the Farm Platform as a Test-Bed For Advances in Sensor Technologies') }}
-        </h2>
+        <div class="flex justify-between">
+            <h2 class="text-xl font-semibold leading-tight text-gray-800">
+                {{ __('North Wyke and the Farm Platform as a Test-Bed For Advances in Sensor Technologies') }}
+            </h2>
+            <x-share-on-x></x-share-on-x>
+        </div>
     </x-slot>
 
     <div class="p-3">
@@ -123,8 +126,8 @@
         </p>
     </div>
 
-        <h2 class="py-auto mt-4 h-8 bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">Previous Studies</h2>
-        <div class="p-3">
+    <h2 class="py-auto mt-4 h-8 bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">Previous Studies</h2>
+    <div class="p-3">
         <h3 class="mt-4 text-lg font-medium text-nw-blue-700 underline underline-offset-4"> Air Quality</h3>
 
         <div class="flex flex-row">

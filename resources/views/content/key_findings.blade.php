@@ -1,11 +1,14 @@
 <x-guest-layout>
     <x-slot name="header">
-
-        <h2 class="text-xl font-semibold leading-tight text-gray-800">
-            {{ __('Key Research Findings') }}
-        </h2>
+        <div class="flex justify-between">
+            <h2 class="text-xl font-semibold leading-tight text-gray-800">
+                {{ __('Key Research Findings') }}
+            </h2>
+            <x-share-on-x></x-share-on-x>
+        </div>
     </x-slot>
-    <h2 class="h-12 content-center bg-nw-blue-900 px-4 text-lg font-medium text-nw-blue-50">1. Soil health and flood prevention</h2>
+    <h2 class="h-12 content-center bg-nw-blue-900 px-4 text-lg font-medium text-nw-blue-50">1. Soil health and flood
+        prevention</h2>
     <div class="grid-col-1 grid gap-4 p-3 lg:grid-cols-2">
 
         <div class="rounded-lg border-2 border-nw-blue-700 shadow-sm">
@@ -121,6 +124,5 @@
             </div>
         </div>
     </div>
-
 
 </x-guest-layout>

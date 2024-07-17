@@ -1,8 +1,11 @@
 <x-guest-layout>
     <x-slot name="header">
-        <h2 class="text-xl font-semibold leading-tight text-gray-800">
-            {{ __('Using Our Facilities and Opportunities for Co-Development') }}
-        </h2>
+        <div class="flex justify-between">
+            <h2 class="text-xl font-semibold leading-tight text-gray-800">
+                {{ __('Using Our Facilities and Opportunities for Co-Development') }}
+            </h2>
+            <x-share-on-x></x-share-on-x>
+        </div>
     </x-slot>
     <div class="sticky top-0 border-b-4 border-nw-blue-700">
 

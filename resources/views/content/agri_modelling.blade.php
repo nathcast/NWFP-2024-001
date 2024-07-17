@@ -1,8 +1,11 @@
 <x-guest-layout>
     <x-slot name="header">
-        <h2 class="text-xl font-semibold leading-tight text-gray-800">
-            {{ __('Agri-Modelling') }}
-        </h2>
+        <div class="flex justify-between">
+            <h2 class="text-xl font-semibold leading-tight text-gray-800">
+                {{ __('Agri-Modelling') }}
+            </h2>
+            <x-share-on-x></x-share-on-x>
+        </div>
 
     </x-slot>
 
@@ -249,7 +252,8 @@
     <div class = "p-3">
         <p class="italic">The field events files are described in farming operations terms, hence the Defra RB209
             Fertilizer Manual is useful for conversion. Ready- converted fertilizer to elemental
-            amounts are included <a class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
+            amounts are included <a
+                class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
                 href="/documents/Fertiliser%20conversion%20%28oxide%20to%20element%29.pdf"><u>here</u></a> for the
             fertilizer types used on the Farm Platform.</p>
     </div>
@@ -306,7 +310,8 @@
         </span> Supplementary information, Links and further resources
     </h2>
     <div class="p-3">
-        Extra data which may be useful in modelling is to be found on the <a class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
+        Extra data which may be useful in modelling is to be found on the <a
+            class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
             href="{{ route('guides') }}">
             Guides, Information, Data Portal Updates and External Links</a>
         webpage in the '<span class="font-bold">Supplementary Data, Information and File Downloads'
@@ -354,10 +359,11 @@
                 pollution; how response of plants/cropping systems to climate change and carbon sequestered
                 into soils with land use change.</p>
             <p>Wu, L., McGechan, M. B., McRoberts, N., Baddeley, J. A., Watson, C. A., 2007. SPACSYS:
-                    integration of a 3D root architecture component to carbon, nitrogen and water cycling -
-                    model description. <span class="italic">Ecol. Model</span>. 200, 343-359. (<a class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
-                        href="https://www.sciencedirect.com/science/article/abs/pii/S0304380006003802?via%3Dihub"
-                        onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;">doi:10.1016/j.ecolmodel.2006.08.010</a>)
+                integration of a 3D root architecture component to carbon, nitrogen and water cycling -
+                model description. <span class="italic">Ecol. Model</span>. 200, 343-359. (<a
+                    class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
+                    href="https://www.sciencedirect.com/science/article/abs/pii/S0304380006003802?via%3Dihub"
+                    onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;">doi:10.1016/j.ecolmodel.2006.08.010</a>)
             </p>
         </div>
         <h3 class="mt-4 text-lg font-medium text-nw-blue-900 underline underline-offset-4"><span
@@ -376,10 +382,11 @@
                 (N2O, NOx, N2), CO2 flux from heterotrophic soil respiration, soil organic C and N, NPP, H2O
                 and NO3 leaching, and other ecosystem parameters.</p>
             <p>Parton, W.J. and Rasmussen, P.E. (1994). Long term effects of crop management in
-                    wheat/fallow: II. CENTURY model simulations. <span class="italic">Soil Science Society of America Journal</span> 58:
-                    530-536.</p>
+                wheat/fallow: II. CENTURY model simulations. <span class="italic">Soil Science Society of America
+                    Journal</span> 58:
+                530-536.</p>
             <p>Parton, W.J., Hartman, M., Ojima, D., Schimel, D. 1998. DAYCENT and its land surface
-                    submodel: description and testing. <span class="italic">Global Planetary Change</span>, 19, 35-48.</p>
+                submodel: description and testing. <span class="italic">Global Planetary Change</span>, 19, 35-48.</p>
         </div>
         <h3 class="mt-4 text-lg font-medium text-nw-blue-900 underline underline-offset-4">
             <span
@@ -400,16 +407,19 @@
                 threshold, the crop demand cannot be met. The relative reduction in water use is related to
                 the ratio of the available water and the water holding capacity.</p>
             <p>A. Shepherd, S.M. McGinn, G.C.L. Wyseure. (2002). Simulation of the effect of water
-                    shortage on the yields of winter wheat in North-East England. <a
+                shortage on the yields of winter wheat in North-East England. <a
                     class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
-                        href="https://abdn.pure.elsevier.com/en/publications/simulation-of-the-effect-of-water-shortage-on-the-yields-of-winte"
-                        onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;"><span class="italic">Ecological
+                    href="https://abdn.pure.elsevier.com/en/publications/simulation-of-the-effect-of-water-shortage-on-the-yields-of-winte"
+                    onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;"><span
+                        class="italic">Ecological
                         Modelling</span>, 147(1), 41-52.</a></p>
             <p>A. Shepherd, W. Atuhaire, L. Wu, D. Hogan, R. Dunn and L. Cardenas (2016). Historic
-                    record of pasture soil water and the influence of the North Atlantic Oscillation in
-                    south-west England. Hydrology Research. (<a class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
-                        href="https://iwaponline.com/hr/article/48/1/277/1702/Historic-record-of-pasture-soil-water-and-the"
-                        onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;">doi: https://doiorg/10.2166/nh.2016.195</a>)
+                record of pasture soil water and the influence of the North Atlantic Oscillation in
+                south-west England. Hydrology Research. (<a
+                    class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
+                    href="https://iwaponline.com/hr/article/48/1/277/1702/Historic-record-of-pasture-soil-water-and-the"
+                    onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;">doi:
+                    https://doiorg/10.2166/nh.2016.195</a>)
             </p>
         </div>
     </div>

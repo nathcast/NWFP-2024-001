@@ -1,8 +1,11 @@
 <x-guest-layout>
     <x-slot name="header">
+        <div class="flex justify-between">
         <h2 class="text-xl font-semibold leading-tight text-gray-800">
             {{ __('Overview & Hypotheses') }}
         </h2>
+        <x-share-on-x></x-share-on-x>
+        </div>
     </x-slot>
 
     <h2 class="mt-4 h-8 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">Core Remit</h2>

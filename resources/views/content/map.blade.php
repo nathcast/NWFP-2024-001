@@ -18,23 +18,25 @@
                     frameborder="0" height="700" width="900" marginheight="0" marginwidth="0" scrolling="no">
                 </iframe>
             </div>
-            <div class=" flex-1  p-3">
-                The Farm Platform provides three farming systems in farmlets, each consisting of five component catchments comprising approx.
-                21 ha in total per farmlet. Each farmlet is managed using alternative approaches to livestock production from grassland and
-                measurements on water, air and soil are also recorded.
+            <div class="flex-1 p-3">
+                The Farm Platform provides 4 farming systems comprising of 3 farmlets and one indoor beef finishing
+                system. Each farmlet consists of five component catchments comprising approx. 21 ha in total per
+                farmlet. 2 farmlets (Green and Blue) explore pasture based ruminant production systems, 1 farmlet (Red)
+                allows the investigation of production of crops for the human food chain. The indoor beef finishing unit
+                represents typical business as usual commercial beef production.
                 <ul class="mt-5">
-                    <li class="mt-4 h-12 content-center "><span
-                        class="m-2 h-8 w-8 rounded-full bg-red-500 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
+                    <li class="mt-4 h-12 content-center"><span
+                            class="m-2 h-8 w-8 rounded-full bg-red-500 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
 
-                    </span> Legend to RED</li>
-                    <li class="mt-4 h-12 content-center "><span
-                        class="m-2 h-8 w-8 rounded-full bg-lime-500 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
+                        </span> Legend to RED</li>
+                    <li class="mt-4 h-12 content-center"><span
+                            class="m-2 h-8 w-8 rounded-full bg-lime-500 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
 
-                    </span>Legend to GREEN</li>
-                    <li class="mt-4 h-12 content-center "><span
-                        class="m-2 h-8 w-8 rounded-full bg-blue-400 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
+                        </span>Legend to GREEN</li>
+                    <li class="mt-4 h-12 content-center"><span
+                            class="m-2 h-8 w-8 rounded-full bg-blue-400 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
 
-                    </span>Legend to BLUE</li>
+                        </span>Legend to BLUE</li>
                 </ul>
             </div>
         </div>
