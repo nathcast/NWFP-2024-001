@@ -1,8 +1,11 @@
 <x-guest-layout>
     <x-slot name="header">
-        <h2 class="text-xl font-semibold leading-tight text-gray-800">
-            {{ __('Farm Platform Map') }}
-        </h2>
+        <div class="flex justify-between">
+            <h2 class="text-xl font-semibold leading-tight text-gray-800">
+                {{ __('Farm Platform Map') }}
+            </h2>
+            <x-share-on-x></x-share-on-x>
+        </div>
     </x-slot>
     <div>
         <p class="px-3 pt-2">
