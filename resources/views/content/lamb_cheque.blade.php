@@ -1,10 +1,10 @@
 <x-guest-layout>
     <x-slot name="header">
         <div class="flex justify-between">
-        <h2 class="text-xl font-semibold leading-tight text-gray-800">
-            {{ __('Trial finds ewe data is route to bigger lamb cheque') }}
-        </h2>
-        <x-share-on-x></x-share-on-x>
+            <h2 class="text-xl font-semibold leading-tight text-gray-800">
+                {{ __('Trial finds ewe data is route to bigger lamb cheque') }}
+            </h2>
+            <x-share-on-x></x-share-on-x>
         </div>
     </x-slot>
 

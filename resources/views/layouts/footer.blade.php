@@ -21,7 +21,7 @@
             <p><a class="hover:text-yellow-300 hover:font-semibold hover:shadow-lg active:text-orange-600 active:shadow-lg " href="">Legal Notice</a></p>
             <p><a class="hover:text-yellow-300 hover:font-semibold hover:shadow-lg active:text-orange-600 active:shadow-lg " href="https://www.rothamsted.ac.uk/privacy-and-cookies">Privacy and Cookies</a></p>
             <p><a class="hover:text-yellow-300 hover:font-semibold hover:shadow-lg active:text-orange-600 active:shadow-lg " href="/documents/NWFP Data Access Policy Summary Final 26-2-2016.pdf">Data Access Policy</a></p>
-            <p><a class="hover:text-yellow-300 hover:font-semibold hover:shadow-lg active:text-orange-600 active:shadow-lg " href="/documents/Modern-Slavery-Act 2015-2019.pdf">Modern Slavery</p>
+            <p><a class="hover:text-yellow-300 hover:font-semibold hover:shadow-lg active:text-orange-600 active:shadow-lg " href="/documents/Modern-Slavery-Act 2015-2019.pdf">Modern Slavery</a></p>
             <p><a class="hover:text-yellow-300 hover:font-semibold hover:shadow-lg active:text-orange-600 active:shadow-lg " href="">Compassionate Farming</p>
 
         </div>

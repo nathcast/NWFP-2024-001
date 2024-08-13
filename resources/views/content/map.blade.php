@@ -31,15 +31,16 @@
                     <li class="mt-4 h-12 content-center"><span
                             class="m-2 h-8 w-8 rounded-full bg-red-500 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
 
-                        </span> Legend to RED</li>
+                        </span>Arable</li>
                     <li class="mt-4 h-12 content-center"><span
                             class="m-2 h-8 w-8 rounded-full bg-lime-500 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
 
-                        </span>Legend to GREEN</li>
+                        </span>Permanent Pasture</li>
                     <li class="mt-4 h-12 content-center"><span
                             class="m-2 h-8 w-8 rounded-full bg-blue-400 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-nw-blue-50">
 
-                        </span>Legend to BLUE</li>
+                        </span>Grass Clover Mixture</li>
+
                 </ul>
             </div>
         </div>

@@ -12,7 +12,7 @@
     <div class="grid-col-1 grid gap-4 p-3 lg:grid-cols-2">
 
         <div class="rounded-lg border-2 border-nw-blue-700 shadow-sm">
-            <h2 class="h-8 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">1a: Livestock
+            <h2 class="h-16 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">1a: Livestock
                 grazing
                 improves soil health and thereby reduces the chance of floods</h2>
             <img class="mx-auto" src="/images/Fig1a.png" alt="French drain water capturing system at North Wykes" />
@@ -25,7 +25,7 @@
             </div>
         </div>
         <div class="rounded-lg border-2 border-nw-blue-700 shadow-sm">
-            <h2 class="h-8 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">1b. Maintaining
+            <h2 class="h-16 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">1b. Maintaining
                 soil
                 health, in turn, also helps animals grow more efficiently</h2>
             <img class="mx-auto" src="/images/Fig1b.png" alt="" /></p>
@@ -45,7 +45,7 @@
         for sustainable livestock systems</h2>
     <div class="grid-col-1 grid gap-4 p-3 lg:grid-cols-2">
         <div class="rounded-lg border-2 border-nw-blue-700 shadow-sm">
-            <h2 class="h-8 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">2a: Clovers can
+            <h2 class="h-16 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">2a: Clovers can
                 help
                 cut
                 down the carbon footprint of cattle and sheep farms</h2>
@@ -62,7 +62,7 @@
             </div>
         </div>
         <div class="rounded-lg border-2 border-nw-blue-700 shadow-sm">
-            <h2 class="h-8 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">2b: If you
+            <h2 class="h-16 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">2b: If you
                 decide to test your soil, you might as well do it right</h2>
             <img class="mx-auto" src="/images/Fig2b.png" alt="" />
             <div class="p-3">
@@ -80,7 +80,7 @@
         agricultural policy in the UK and beyond</h2>
     <div class="grid-col-1 grid gap-4 p-3 lg:grid-cols-2">
         <div class="rounded-lg border-2 border-nw-blue-700 shadow-sm">
-            <h2 class="h-8 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">3a: There are
+            <h2 class="h-16 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">3a: There are
                 'green' cows
                 and 'not-so-green' cows</h2>
 
@@ -101,7 +101,7 @@
 
         </div>
         <div class="rounded-lg border-2 border-nw-blue-700 shadow-sm">
-            <h2 class="h-8 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">3b: Contrary to
+            <h2 class="h-16 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">3b: Contrary to
                 common
                 belief, beef may be greener than chicken if consumed responsibly</h2>
             <img class="mx-auto" src="/images/Fig3b.png"
