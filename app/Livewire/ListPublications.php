@@ -10,24 +10,25 @@ class ListPublications extends Component
 {
     public $ref_type;
 
-    public $KeyRef = 'KeyRef';
+    public $keyref;
     public $order = 'ASC';
     public string $searchRef = "";
+    public $publications;
     public string $searchAuth = "";
     public $guides=1;
 
 
-    protected $rules = [ ];
 
     public function render()
     {
-        $publications = Publication::where('keywords', 'ilike', '%'. $this->KeyRef .'%')
+
+        $this -> publications = Publication::where('keywords', 'ilike', '%'. $this->keyref .'%')
         ->when($this->guides === 0, fn(Builder $query) => $query->where('keywords', 'not like', '%KeyRefUserGuide%'))
         ->when($this->searchRef !== '', fn(Builder $query) => $query->where('title', 'ilike', '%'. $this->searchRef .'%'))
         ->when($this->searchAuth !== '', fn(Builder $query) => $query->where('authors', 'ilike', '%'. $this->searchAuth .'%'))
         ->get();
         return view('livewire.list-publications', [
-            'publications' => $publications
+            'publications' => $this->publications
         ]);
     }
 }
