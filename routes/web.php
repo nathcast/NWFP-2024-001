@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\PublicationController;
+use App\Livewire\ListPublications;
 use Illuminate\Support\Facades\Route;
 Use App\Livewire\ListUsers;
 use Psy\ExecutionLoop\Listener;
@@ -67,13 +69,9 @@ Route::get('/guides', function () {
     return view('content.guides');
 })->name('guides');
 
+Route::get('/publications', ListPublications::class)->name('publications');
 
-
-Route::get('/publications', function () {
-    return view('content.publications');
-})->name('publications');
-
-
+Route::resource('references', PublicationController::class );
 
 Route::middleware([
     'auth:sanctum',
