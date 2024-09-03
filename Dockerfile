@@ -19,10 +19,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     g++ \
     make \
     default-libmysqlclient-dev \
-    libicu-dev \ 
+    libicu-dev \
+    libpq-dev \   
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
     && docker-php-ext-configure zip \
-    && docker-php-ext-install pdo pdo_mysql gd zip intl \ 
+    && docker-php-ext-install pdo pdo_mysql gd zip intl pdo_pgsql pgsql \  
     && curl -fsSL https://deb.nodesource.com/setup_16.x | bash - \
     && apt-get install -y --no-install-recommends nodejs \
     && pecl install pdo_sqlsrv \
