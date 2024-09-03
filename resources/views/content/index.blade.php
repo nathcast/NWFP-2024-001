@@ -27,7 +27,7 @@
         </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a
                 class="px-2 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
-                href="{{ route('agri_modelling') }}">Agri-Modelling - Issue#21</a> -
+                href="{{ route('content.with.page', ['page' => 'agri_modelling'])  }}">Agri-Modelling - Issue#21</a> -
             http://resources.rothamsted.ac.uk/farm-platform-national-capability/agri-modelling-0
         </li>
         <li class="hover:text-slate-100 m-5 rounded-lg border border-nw-blue-700 p-3 hover:bg-nw-blue-600"> <a

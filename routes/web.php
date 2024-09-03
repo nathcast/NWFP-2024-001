@@ -8,14 +8,13 @@ Route::get('/', function () {
     return view('index');
 })->name('home');
 
-
+# The static content pages: .
+# $url = route('content.with.page', ['page' => 'home']);
 Route::get('content/{page}', function ($page) {
     return view('content.'.$page);
 })->name('content.with.page');
 
-# You can pass the parameters as the second argument in an associative array when calling the route function.
 
-# $url = route('content.with.page', ['page' => 'home']);
 
 
 Route::get('/agri_modelling', function () {
