@@ -5,6 +5,6 @@
         </h2>
     </x-slot>
 
-    <livewire:list-publications  keyref="KeyRef" />
+    <livewire:list-publications  keyref="" />
 
 </x-guest-layout>
