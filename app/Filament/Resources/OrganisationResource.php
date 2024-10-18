@@ -2,9 +2,9 @@
 
 namespace App\Filament\Resources;
 
-use App\Filament\Resources\PageResource\Pages;
-use App\Filament\Resources\PageResource\RelationManagers;
-use App\Models\Page;
+use App\Filament\Resources\OrganisationResource\Pages;
+use App\Filament\Resources\OrganisationResource\RelationManagers;
+use App\Models\Organisation;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
@@ -12,12 +12,11 @@ use Filament\Tables;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
-use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\TextInput;
 
-class PageResource extends Resource
+class OrganisationResource extends Resource
 {
-    protected static ?string $model = Page::class;
+    protected static ?string $model = Organisation::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
@@ -27,16 +26,12 @@ class PageResource extends Resource
             ->schema([
                 TextInput::make('name')->required()
                 ->maxLength(50),
-                TextInput::make('title')->required()
+                TextInput::make('abbrev')->required()
+                ->maxLength(10),
+                TextInput::make('website')->required()
                 ->maxLength(255),
-                TextInput::make('description')->required()
-                ->maxLength(255),
-                TextInput::make('status')
-                    ->datalist([
-                            'Draft',
-                            'Reviewing',
-                            'Published',
-                ])
+                TextInput::make('ror')
+                ->maxLength(20),
 
             ]);
     }
@@ -44,16 +39,16 @@ class PageResource extends Resource
     public static function table(Table $table): Table
     {
         return $table
-                ->columns([
-                Tables\Columns\TextColumn::make('name')->label('Filename'),
-                Tables\Columns\TextColumn::make('title'),
-                Tables\Columns\TextColumn::make('description'),
-                Tables\Columns\TextColumn::make('status'),
+        ->columns([
+        Tables\Columns\TextColumn::make('name')->label('Institute'),
+        Tables\Columns\TextColumn::make('abbrev'),
+        Tables\Columns\TextColumn::make('website'),
+        Tables\Columns\TextColumn::make('ror'),
 
 
 
-            // ...
-        ])
+    // ...
+])
             ->filters([
                 //
             ])
@@ -77,9 +72,9 @@ class PageResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ListPages::route('/'),
-            'create' => Pages\CreatePage::route('/create'),
-            'edit' => Pages\EditPage::route('/{record}/edit'),
+            'index' => Pages\ListOrganisations::route('/'),
+            'create' => Pages\CreateOrganisation::route('/create'),
+            'edit' => Pages\EditOrganisation::route('/{record}/edit'),
         ];
     }
 }
